@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: medium;
+    
+}
+
+body{
+    margin: 0px 3% 0px  3%;
+}
+
+.HeadContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    font-weight: 600;
+    
+}
+
+.logo{
+    margin-right: auto; 
+}
+
+
+a {
+    text-decoration: none; /* no underline */
+  }
+
+#signin{
+    color:#0065FC;
+}
+.mr{
+    margin-right: 3%;
+}
+.navlink{
+   display: flex;
+   align-items: center;
+    
+}
+.navlink a{
+    vertical-align: baseline;
+    padding: 0 20px 0 20px;
+ }
+.navlink:hover{
+    border-top: solid;
+    color:#0065FC;
+}
+.navlink:hover a{
+    color:#0065FC;
+    
+}
+
+/*  */ 
+
+.text{
+    font-size:0.7em;
+}
+.text p{
+    font-size:1.4em;
+}
+/* à corriger */
+form{
+    
+    display: flex;
+    border:solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 15px;
+    width: fit-content;
+    overflow: hidden;
+}
+
+form > div {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: #F2F2F2;
+
+}
+
+div > i {
+    font-size: 1.3em;
+    margin-top: 24%;
+}
+
+form > input {
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: medium;
+    outline: none;
+    border:solid;
+    border-color:#F2F2F2 ;
+    border-width: 1px;
+border-left-width: 0px;
+border-right-width: 0px;
+}
+
+input[type="submit"]:hover{
+    background-color: #0065FC;
+    color: white;
+    
+}
+
+.filter{
+    display: flex;
+    margin-top: 3%;
+    font-weight: 600;
+}

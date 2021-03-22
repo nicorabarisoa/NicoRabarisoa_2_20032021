@@ -169,9 +169,81 @@ input[type="submit"]:hover{
     border-width:2px ;
     border-radius: 50%;
     border-color:#F2F2F2 ;
-    padding: 1px 2px 1px 2px;
+    padding: 3px 7px 3px 7px;
     
 
 }
 
+.content{
+    margin-top: 2%;
+    display: flex;
+    width: 100%;
     
+}
+
+
+.bg{
+
+    background-color: #F2F2F2 ;
+    border-radius: 25px;
+    padding:2%;
+}
+
+.heberg{
+  flex : 3;
+  margin-right: 1%;
+  
+}
+
+.trend{
+    flex:2;
+    margin-left: 1%;
+    
+}
+.t6{
+    display: flex;
+}
+.cardh{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 1%;
+    width: 30%;
+    
+}
+
+.test{
+    width: 100%
+    ;
+}
+img{
+    width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* piggy family romantic animal  ?? */
+    
+/* .fa-piggy-bank :hover{
+    animation-name:test;
+    animation-duration: 2s;
+}
+
+#family:hover{
+
+}
+
+#romantic:hover{
+
+}
+
+#animal:hover{
+    
+}
+
+
+@keyframes test {
+    0% {background-color: #0065FC ;}
+    100% {background-color:gold;}
+  } */ 

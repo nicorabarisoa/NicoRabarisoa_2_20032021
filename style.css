@@ -4,12 +4,14 @@
 body{
     font-family: 'Raleway', sans-serif;
     font-size: medium;
+    max-width: 1920px;
+    margin: 0px auto;
+    padding-left: 2%;
+    padding-right: 2%;
     
 }
 
-body{
-    margin: 0px 3% 0px  3%;
-}
+
 
 .HeadContainer {
     display: flex;
@@ -21,6 +23,7 @@ body{
 
 .logo{
     margin-right: auto; 
+    padding-top: 2%;
 }
 
 
@@ -35,8 +38,11 @@ a {
     margin-right: 3%;
 }
 .navlink{
+    border-top:solid;
+    border-color: transparent;
    display: flex;
    align-items: center;
+   padding-top: 2%;
     
 }
 .navlink a{
@@ -109,8 +115,10 @@ input[type="submit"]:hover{
 .filter{
     
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     margin-top: 3%;
+    width: 100%;
     font-weight: 600;
     font-size: 1.2em;
 }
@@ -139,8 +147,8 @@ input[type="submit"]:hover{
     width: 45px;
     border-radius: 100%;
     background-color:#DEEBFF;
-    z-index: 1;
 }
+
 
 .bulle>i{
     padding: 10px;
@@ -169,9 +177,93 @@ input[type="submit"]:hover{
     border-width:2px ;
     border-radius: 50%;
     border-color:#F2F2F2 ;
-    padding: 1px 2px 1px 2px;
+    padding: 3px 7px 3px 7px;
     
 
 }
 
+.content{
+    margin-top: 2%;
+    display: flex;
+    width: 100%;
     
+}
+
+
+.bg{
+
+    background-color: #F2F2F2 ;
+    border-radius: 25px;
+    padding:2%;
+}
+
+.heberg{
+  flex : 3;
+  margin-right: 1%;
+  
+}
+
+.trend{
+    flex:2;
+    margin-left: 1%;
+    
+}
+.t6{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.cardh{
+    display: flex;
+    
+    flex-direction: column;
+    background-color: white;
+    padding: 2px;
+    width: 30%;
+    border-radius: 15px;
+    
+}
+
+.test{
+    width: 100%;
+    height:125px;
+    background-image: url('img/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-size:100%;
+    background-position:fixed ; 
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    
+}
+img{
+    width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* piggy family romantic animal  ?? */
+    
+/* .fa-piggy-bank :hover{
+    animation-name:test;
+    animation-duration: 2s;
+}
+
+#family:hover{
+
+}
+
+#romantic:hover{
+
+}
+
+#animal:hover{
+    
+}
+
+
+@keyframes test {
+    0% {background-color: #0065FC ;}
+    100% {background-color:gold;}
+  } */ 

@@ -147,8 +147,8 @@ input[type="submit"]:hover{
     width: 45px;
     border-radius: 100%;
     background-color:#DEEBFF;
-    z-index: 1;
 }
+
 
 .bulle>i{
     padding: 10px;
@@ -210,7 +210,7 @@ input[type="submit"]:hover{
 }
 .t6{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 .cardh{
@@ -231,7 +231,7 @@ input[type="submit"]:hover{
     background-repeat: no-repeat;
     background-origin: border-box;
     background-size:100%;
-    background-position:0px -120px ; 
+    background-position:fixed ; 
     border-top-left-radius: 14px;
     border-top-right-radius: 14px;
     

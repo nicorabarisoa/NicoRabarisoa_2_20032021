@@ -1,250 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
-
-body{
-    font-family: 'Raleway', sans-serif;
-    font-size: medium;
-    max-width: 1920px;
-    margin: 0px auto;
-    padding-left: 2%;
-    padding-right: 2%;
-    
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  max-width: 1920px;
+  margin: 0px auto;
+  padding-left: 2%;
+  padding-right: 2%;
 }
-
-
 
 .HeadContainer {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-    font-weight: 600;
-    
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  font-weight: 600;
 }
 
-.logo{
-    margin-right: auto; 
-    padding-top: 2%;
+.logo {
+  margin-right: auto;
+  padding-top: 2%;
 }
-
 
 a {
-    text-decoration: none; /* no underline */
-  }
-
-#signin{
-    color:#0065FC;
-}
-.mr{
-    margin-right: 3%;
-}
-.navlink{
-    border-top:solid;
-    border-color: transparent;
-   display: flex;
-   align-items: center;
-   padding-top: 2%;
-    
-}
-.navlink a{
-    vertical-align: baseline;
-    padding: 0 20px 0 20px;
- }
-.navlink:hover{
-    border-top: solid;
-    color:#0065FC;
-}
-.navlink:hover a{
-    color:#0065FC;
-    
+  text-decoration: none; /* no underline */
 }
 
-/*  */ 
-
-.text{
-    font-size:0.7em;
+#signin {
+  color: #0065fc;
 }
-.text p{
-    font-size:1.4em;
+.mr {
+  margin-right: 3%;
+}
+.navlink {
+  border-top: solid;
+  border-color: transparent;
+  display: flex;
+  align-items: center;
+  padding-top: 2%;
+}
+.navlink a {
+  vertical-align: baseline;
+  padding: 0 20px 0 20px;
+  color:#242424;;
+}
+.navlink:hover {
+  border-top: solid;
+  color: #0065fc;
+}
+.navlink:hover a {
+  color: #0065fc;
+}
+
+/*  */
+
+.text {
+  font-size: 0.7em;
+}
+.text p {
+  font-size: 1.4em;
 }
 /* à corriger */
-form{
-    
-    display: flex;
-    border:solid;
-    border-width: 1px;
-    border-color: white;
-    border-radius: 15px;
-    width: fit-content;
-    overflow: hidden;
+form {
+  display: flex;
+  border: solid;
+  border-width: 1px;
+  border-color: white;
+  border-radius: 15px;
+  width: fit-content;
+  overflow: hidden;
 }
 
 form > div {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
   align-items: center;
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    background-color: #F2F2F2;
-
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  background-color: #f2f2f2;
 }
 
 div > i {
-    font-size: 1.3em;
-    
+  font-size: 1.3em;
 }
 
 form > input {
-    font-family: 'Raleway';
-    font-weight: 600;
-    font-size: medium;
-    outline: none;
-    border:solid;
-    border-color:#F2F2F2 ;
-    border-width: 1px;
-border-left-width: 0px;
-border-right-width: 0px;
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: medium;
+  outline: none;
+  border: solid;
+  border-color: #f2f2f2;
+  border-width: 1px;
+  border-left-width: 0px;
+  border-right-width: 0px;
 }
 
-input[type="submit"]:hover{
-    background-color: #0065FC;
-    color: white;
-    
+input[type="submit"]:hover {
+  background-color: #0065fc;
+  color: white;
 }
 
-.filter{
-    
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-top: 3%;
-    width: 100%;
-    font-weight: 600;
-    font-size: 1.2em;
+.filter {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 3%;
+  width: 100%;
+  font-weight: 600;
+  font-size: 1.2em;
 }
 
+/* Z-index solution ? */
 
-/* Z-index solution ? */ 
-
-.theme{
-    display: flex;
+.theme {
+  display: flex;
   justify-content: center;
   align-items: center;
-    margin-left: 2%;
-    border:solid;
-    border-color:#F2F2F2 ;
-    border-width: 2px;
-    border-radius: 35px;
-    z-index: -1;
-    overflow: visible;
+  margin-left: 2%;
+  border: solid;
+  border-color: #f2f2f2;
+  border-width: 2px;
+  border-radius: 35px;
+  z-index: -1;
+  overflow: visible;
 }
 
-.bulle{
-    display: flex;
+.bulle {
+  display: flex;
   justify-content: center;
   align-items: center;
-    color: #0065FC ;
-    width: 45px;
-    border-radius: 100%;
-    background-color:#DEEBFF;
+  color: #0065fc;
+  width: 45px;
+  border-radius: 100%;
+  background-color: #deebff;
 }
 
-
-.bulle>i{
-    padding: 10px;
+.bulle > i {
+  padding: 10px;
 }
 /* taille icone */
 
-.name{
-    padding-left: 10px;
-    padding-right: 10px;
+.name {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 /* informations */
 
-.info{
-    display: flex;
-    align-items: center;
+.info {
+  display: flex;
+  align-items: center;
 }
-.info > p{
-    
-    padding-left: 1%;}
-
-.info > i{
-    color: #0065FC ;
-    font-size: small; 
-    border:solid;
-    border-width:2px ;
-    border-radius: 50%;
-    border-color:#F2F2F2 ;
-    padding: 3px 7px 3px 7px;
-    
-
+.info > p {
+  padding-left: 1%;
 }
 
-.content{
-    margin-top: 2%;
-    display: flex;
-    width: 100%;
-    
+.info > i {
+  color: #0065fc;
+  font-size: small;
+  border: solid;
+  border-width: 2px;
+  border-radius: 50%;
+  border-color: #f2f2f2;
+  padding: 3px 7px 3px 7px;
 }
 
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
 
-.bg{
+section{
+  margin: 3% 0;
+  background-color:#f2f2f2;
+  border-radius: 20px;
+  
+}
+section > h1 {
+ 
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
 
-    background-color: #F2F2F2 ;
-    border-radius: 25px;
-    padding:2%;
+section > *{
+  padding-left: 4%;
+  padding-right: 4%;
 }
 
 .heberg{
-  flex : 3;
-  margin-right: 1%;
-  
+
+  flex-basis: 62%;
 }
 
 .trend{
-    flex:2;
-    margin-left: 1%;
-    
-}
-.t6{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.cardh{
-    display: flex;
-    
-    flex-direction: column;
-    background-color: white;
-    padding: 2px;
-    width: 30%;
-    border-radius: 15px;
-    
+  flex-basis: 34%;
 }
 
-.test{
-    width: 100%;
-    height:125px;
-    background-image: url('img/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg');
-    background-repeat: no-repeat;
-    background-origin: border-box;
-    background-size:100%;
-    background-position:fixed ; 
-    border-top-left-radius: 14px;
-    border-top-right-radius: 14px;
-    
+.grid6{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2% 0;
 }
-img{
-    width: auto;
-  height: auto;
+
+
+.cardH{
+  background-color: white;
+  box-shadow: 0px 0px 10px gray;
+  flex-basis: 31%;
+  margin-top: 2%;
+  border-radius: 20px;
+  color: black;
+}
+
+.cardH>*{
+  margin: 2% 2% ;
+}
+.fa-star{
+  font-size: 0.8em;
+ margin: 0;
+ color:#0065fc;
+}
+.strafe{
+  margin-left: 5%;
+}
+
+.carte{
   max-width: 100%;
-  max-height: 100%;
+ object-position:0px -70px; 
+  object-fit: contain;
+  overflow: hidden;
 }
+.fit{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  overflow: hidden;
+  height: 125px;
+ 
+
+}
+.more{
+  margin:2% 0;
+}
+.more > a{
+  font-weight: 600;
+  font-size: 1em;
+  color: black;
+}
+
+
+
 
 /* piggy family romantic animal  ?? */
-    
+
 /* .fa-piggy-bank :hover{
     animation-name:test;
     animation-duration: 2s;
@@ -266,4 +277,4 @@ img{
 @keyframes test {
     0% {background-color: #0065FC ;}
     100% {background-color:gold;}
-  } */ 
+  } */

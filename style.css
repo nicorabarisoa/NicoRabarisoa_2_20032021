@@ -5,8 +5,8 @@ body {
   font-size: 16px;
   max-width: 1920px;
   margin: 0px auto;
-  padding-left: 2%;
-  padding-right: 2%;
+  padding-left: 4%;
+  padding-right: 4%;
 }
 
 .HeadContainer {
@@ -270,7 +270,7 @@ section > *{
 .grid3{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content:space-between;
   margin: 2% 2%;
 }
 
@@ -278,11 +278,10 @@ section > *{
   display: flex;
   background-color: white;
   box-shadow: 0px 0px 10px gray;
-  flex-basis: 31%;
   overflow: hidden;
-  margin-top: 2%;
   border-radius: 20px;
   color: black;
+  margin-top: 5%;
 }
 
 .fit2{
@@ -292,7 +291,7 @@ section > *{
 
 }
 .three>*{
-  margin:0px 0px;
+  margin:1px 0px;
   padding: 0px 0px;
 }
 
@@ -307,7 +306,100 @@ section > *{
   overflow: hidden;
 }
 
+.three {
+  margin-left: 2%;
+  margin-top: 2%;
 
+
+}
+
+.three > p{
+  margin-bottom: 20%;
+}
+
+/* activités */ 
+
+
+.titleAct{
+
+  
+}
+
+.titleAct>h1{
+  font-size: 1.5em;
+}
+
+.listAct{
+  border-radius: 0%;
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: transparent;
+
+}
+
+.bar{
+  overflow: hidden;
+  padding: 0 0;
+  width: 22%;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px gray;
+}
+
+.bar2{
+  
+  padding: 0 0;
+  width: 22%;
+  border-radius: 20px;
+  
+  
+}
+
+.img1>img{
+  height: 400px;
+}
+
+.h4title >h4{
+  margin: 2% 5%;
+  color: black;
+}
+
+.img2{
+  height: 200px;
+  overflow: hidden;
+  
+}
+
+.img2>img{
+  height: 400px;
+  object-fit:cover;
+}
+
+.img3{
+  height: 125px;
+  overflow: hidden;
+}
+
+.img3>img{
+  height: 400px;
+  object-fit:cover;
+}
+
+.mini{
+  overflow: hidden;
+  padding: 0 0;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px gray;
+}
+
+.mini2{
+  margin-top:50px;
+  overflow: hidden;
+  padding: 0 0;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px gray;
+}
 
 
 /* piggy family romantic animal  ?? */

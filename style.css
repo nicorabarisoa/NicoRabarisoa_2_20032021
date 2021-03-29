@@ -7,6 +7,11 @@ body {
   margin: 0px auto;
   padding-left: 4%;
   padding-right: 4%;
+  
+}
+
+header,.search,.content,.content2{
+  
 }
 
 .HeadContainer {
@@ -117,7 +122,7 @@ input[type="submit"]:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 2%;
+  margin-left: 5%;
   border: solid;
   border-color: #f2f2f2;
   border-width: 2px;
@@ -230,7 +235,6 @@ section > *{
 
 .carte{
   max-width: 100%;
- object-position:0px -70px; 
   object-fit: contain;
   overflow: hidden;
 }
@@ -271,7 +275,7 @@ section > *{
   display: flex;
   flex-direction: column;
   justify-content:space-between;
-  margin: 2% 2%;
+  margin: 0% 2% 2% 2%;
 }
 
 .cardL{
@@ -372,6 +376,7 @@ section > *{
 }
 
 .img2>img{
+  width: 100%;
   height: 400px;
   object-fit:cover;
 }
@@ -401,28 +406,31 @@ section > *{
   box-shadow: 0px 0px 10px gray;
 }
 
+/* footer */ 
+
+footer{
+  display: flex;
+  background-color:#f2f2f2 ;
+  justify-content: space-between;
+}
+
+.footc{
+  width: 30%;
+  margin-left: 1%;
+}
+
+.footc > * {
+  color: black;
+  
+}
+
 
 /* piggy family romantic animal  ?? */
-
-/* .fa-piggy-bank :hover{
-    animation-name:test;
-    animation-duration: 2s;
+.theme:hover {
+  box-shadow: 0px 0px 10px #0065fc;
+  
 }
 
-#family:hover{
-
+#animal{
+  
 }
-
-#romantic:hover{
-
-}
-
-#animal:hover{
-    
-}
-
-
-@keyframes test {
-    0% {background-color: #0065FC ;}
-    100% {background-color:gold;}
-  } */

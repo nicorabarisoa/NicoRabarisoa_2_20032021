@@ -233,18 +233,23 @@ section > *{
   margin-left: 5%;
 }
 
-.carte{
+/* .carte{
   max-width: 100%;
   object-fit: contain;
-  overflow: hidden;
-}
+  overflow: hidden; 
+}*/ 
 .fit{
+  width: 96%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   overflow: hidden;
-  height: 125px;
+  height: 120px;
  
 
+}
+
+.fit > img {
+  width: 100%;
 }
 .more{
   margin:2% 0;

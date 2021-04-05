@@ -215,6 +215,11 @@ input[type="submit"]:hover {
   color: #0065fc;
 }
 
+.grey{
+ 
+  color: #f2f2f2;
+}
+
 .fit {
   width: 96%;
   border-top-left-radius: 20px;
@@ -593,6 +598,7 @@ footer {
   }
   .cardH {
     width: 100%;
+    margin-top: 5%;
     margin-bottom: 2%;
     height: 130px;
   }
@@ -601,7 +607,11 @@ footer {
   }
 
   .content2 {
+    margin-top: 5%;
     font-size: 0.5em;
+  }
+  .titleAct{
+    margin: 5% 0%;
   }
   .listAct {
     flex-wrap: wrap;

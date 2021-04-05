@@ -215,8 +215,7 @@ input[type="submit"]:hover {
   color: #0065fc;
 }
 
-.grey{
- 
+.grey {
   color: #f2f2f2;
 }
 
@@ -226,7 +225,6 @@ input[type="submit"]:hover {
   border-top-right-radius: 20px;
   overflow: hidden;
   height: 120px;
-  
 }
 
 .fit > img {
@@ -281,7 +279,6 @@ input[type="submit"]:hover {
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   height: 125px;
-  
 }
 .three > * {
   margin: 2% 0px;
@@ -461,7 +458,6 @@ footer {
 }
 
 @media only screen and (max-width: 420px) {
- 
   .HeadContainer {
     flex-wrap: wrap;
 
@@ -586,7 +582,7 @@ footer {
     height: 80px;
   }
 
-  .fit2{
+  .fit2 {
     height: 80px;
   }
 
@@ -610,7 +606,7 @@ footer {
     margin-top: 5%;
     font-size: 0.5em;
   }
-  .titleAct{
+  .titleAct {
     margin: 5% 0%;
   }
   .listAct {
@@ -654,7 +650,7 @@ footer {
     width: 100%;
   }
 
-  img{
+  img {
     object-position: 0px -10px;
   }
 }

@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="Fr">
   <head>
     <meta charset="utf-8" />
     <title>Reservia</title>
     <link rel="stylesheet" href="style.css" />
     <script
       src="https://kit.fontawesome.com/7d281e6f73.js"
-      crossorigin="anonymous"
+      
     ></script>
   </head>
   <body>
     <!-- Logo et barre de navigation  -->
     <header class="HeadContainer">
-      <div class="logo">
+      <div class="logo" id="one">
         <a href="#"
           ><img
             src="img/Reservia.svg"
@@ -22,14 +22,14 @@
         /></a>
       </div>
 
-      <div class="navlink mr">
+      <div class="navlink mr" id="three">
         <a href="#heberg">Hébergement</a>
       </div>
-      <div class="navlink mr">
+      <div class="navlink mr" id="four">
         <a href="#activity">Activités</a>
       </div>
 
-      <div class="navlink">
+      <div class="navlink" id="two">
         <a href="#" id="signin">S'inscrire</a>
       </div>
     </header>
@@ -44,33 +44,45 @@
 
       <form>
         <div><i class="fas fa-map-marker-alt"></i></div>
-        <input  type="text" name="name" style="padding-left: 10px" />
+        <input type="text" name="name" style="padding-left: 10px" />
         <input type="submit" value="Rechercher" />
       </form>
 
       <div class="filter">
         <div>Filtres</div>
-         <a href="#"><div class="theme">
-          <div class="bulle" id="piggy">
-            <i class="fas fa-piggy-bank ic"></i>
-          </div>
-          <div class="name">Economique</div>
-        </div></a>
-        <a href="#"><div class="theme">
-          <div class="bulle" id="family"><i class="fas fa-child ic"   style="padding-left: 15px;
-            padding-right: 15px"></i></div>
-          <div class="name">Familial</div>
-        </div></a>
-        <a href="#"><div class="theme">
-          <div class="bulle" >
-            <i class="fas fa-heart ic" id="romantic"></i>
-          </div>
-          <div class="name">Romantique</div>
-        </div></a>
-        <a href="#"><div class="theme">
-          <div class="bulle" ><i class="fas fa-cat ic"></i></div>
-          <div class="name" id="animal">Animaux autorisés</div>
-        </div></a>
+        <a href="#"
+          ><div class="theme">
+            <div class="bulle" id="piggy">
+              <i class="fas fa-piggy-bank ic"></i>
+            </div>
+            <div class="name">Economique</div>
+          </div></a
+        >
+        <a href="#"
+          ><div class="theme">
+            <div class="bulle" id="family">
+              <i
+                class="fas fa-child ic"
+                style="padding-left: 15px; padding-right: 15px"
+              ></i>
+            </div>
+            <div class="name">Familial</div>
+          </div></a
+        >
+        <a href="#"
+          ><div class="theme">
+            <div class="bulle">
+              <i class="fas fa-heart ic" id="romantic"></i>
+            </div>
+            <div class="name">Romantique</div>
+          </div></a
+        >
+        <a href="#"
+          ><div class="theme">
+            <div class="bulle"><i class="fas fa-cat ic"></i></div>
+            <div class="name" id="animal">Animaux autorisés</div>
+          </div></a
+        >
       </div>
       <div class="info">
         <i class="fas fa-info"></i>
@@ -84,7 +96,8 @@
           <a href="#" class="cardH">
             <div class="fit">
               <img
-                class="carte small" alt=""
+                class="carte"
+                alt=""
                 src="img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
               />
             </div>
@@ -93,14 +106,19 @@
             <p class="strafe" style="font-size: 0.9em">
               Nuit à partir de <strong>25€</strong>
             </p>
-            <i class="fas fa-star strafe" style="margin-bottom: 5%"></i
-            ><i class="fas fa-star"></i><i class="fas fa-star"></i
-            ><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <div>
+              <div>
+                <i class="fas fa-star strafe" style="margin-bottom: 5%"></i
+                ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                ><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+            </div>
           </a>
           <a href="#" class="cardH">
             <div class="fit">
               <img
-                class="carte small" alt=""
+                class="carte"
+                alt=""
                 src="img/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
               />
             </div>
@@ -109,15 +127,20 @@
             <p class="strafe" style="font-size: 0.9em">
               Nuit à partir de <strong>25€</strong>
             </p>
-            <i class="fas fa-star strafe" style="margin-bottom: 5%"></i
-            ><i class="fas fa-star"></i><i class="fas fa-star"></i
-            ><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <div>
+              <div>
+                <i class="fas fa-star strafe" style="margin-bottom: 5%"></i
+                ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                ><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+              </div>
           </a>
           <a href="#" class="cardH">
             <div class="fit">
               <img
-                class="carte small"  
-                src="img/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt=""
+                class="carte"
+                src="img/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+                alt=""
               />
             </div>
 
@@ -125,14 +148,19 @@
             <p class="strafe" style="font-size: 0.9em">
               Nuit à partir de <strong>25€</strong>
             </p>
-            <i class="fas fa-star strafe" style="margin-bottom: 5%"></i
-            ><i class="fas fa-star"></i><i class="fas fa-star"></i
-            ><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <div>
+              <div>
+                <i class="fas fa-star strafe" style="margin-bottom: 5%"></i
+                ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                ><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+              </div>
           </a>
           <a href="#" class="cardH">
             <div class="fit">
               <img
-                class="carte small" alt="" style=" object-position: 50% -30px;"
+                class="carte"
+                alt=""
                 src="img/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
               />
             </div>
@@ -141,15 +169,20 @@
             <p class="strafe" style="font-size: 0.9em">
               Nuit à partir de <strong>25€</strong>
             </p>
-            <i class="fas fa-star strafe" style="margin-bottom: 5%"></i
-            ><i class="fas fa-star"></i><i class="fas fa-star"></i
-            ><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <div>
+              <div>
+                <i class="fas fa-star strafe" style="margin-bottom: 5%"></i
+                ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                ><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+              </div>
           </a>
           <a href="#" class="cardH">
             <div class="fit">
               <img
-                class="carte small"
-                src="img/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt=""
+                class="carte"
+                src="img/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+                alt=""
               />
             </div>
 
@@ -157,15 +190,20 @@
             <p class="strafe" style="font-size: 0.9em">
               Nuit à partir de <strong>25€</strong>
             </p>
-            <i class="fas fa-star strafe" style="margin-bottom: 5%"></i
-            ><i class="fas fa-star"></i><i class="fas fa-star"></i
-            ><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <div>
+              <div>
+                <i class="fas fa-star strafe" style="margin-bottom: 5%"></i
+                ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                ><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+              </div>
           </a>
           <a href="#" class="cardH">
             <div class="fit">
               <img
-                class="carte small" alt="" style=" object-position: 50% -90px;"
-                src="img/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+                class="carte small"
+                alt=""
+                src="img/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
               />
             </div>
 
@@ -173,9 +211,13 @@
             <p class="strafe" style="font-size: 0.9em">
               Nuit à partir de <strong>25€</strong>
             </p>
-            <i class="fas fa-star strafe" style="margin-bottom: 5%"></i
-            ><i class="fas fa-star"></i><i class="fas fa-star"></i
-            ><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <div>
+              <div>
+                <i class="fas fa-star strafe" style="margin-bottom: 5%"></i
+                ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                ><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+              </div>
           </a>
         </div>
         <div class="more"><a href="#">Afficher plus</a></div>
@@ -190,7 +232,9 @@
           <a href="#" class="cardL">
             <div class="fit2">
               <img
-                class="carte2 small" alt="" style=" width: 170%; object-position:50% 50%;"
+                class="carte2 small"
+                alt=""
+                
                 src="img/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
               />
             </div>
@@ -199,15 +243,21 @@
               <p class="strafe" style="font-size: 0.9em">
                 Nuit à partir de <strong>25€</strong>
               </p>
-              <i class="fas fa-star strafe" style="margin-bottom: 5%"></i
-              ><i class="fas fa-star"></i><i class="fas fa-star"></i
-              ><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <div>
+                <div>
+                  <i class="fas fa-star strafe" style="margin-bottom: 5%"></i
+                  ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  </div>
+                </div>
             </div>
           </a>
           <a href="#" class="cardL">
             <div class="fit2">
               <img
-                class="carte2 small" alt="" style=" object-position: -15px 50%;"
+                class="carte2 "
+                alt=""
+                style="object-position: -15px 50%"
                 src="img/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
               />
             </div>
@@ -216,16 +266,22 @@
               <p class="strafe" style="font-size: 0.9em">
                 Nuit à partir de <strong>25€</strong>
               </p>
-              <i class="fas fa-star strafe" style="margin-bottom: 5%"></i
-              ><i class="fas fa-star"></i><i class="fas fa-star"></i
-              ><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <div>
+                <div>
+                  <i class="fas fa-star strafe" style="margin-bottom: 5%"></i
+                  ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  </div>
+                </div>
             </div>
           </a>
 
           <a href="#" class="cardL">
             <div class="fit2">
               <img
-                class="carte2 small" alt="" style=" object-position: 50% -90px;"
+                class="carte2 "
+                alt=""
+                style="object-position: 0% -75px;"
                 src="img/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
               />
             </div>
@@ -234,9 +290,13 @@
               <p class="strafe" style="font-size: 0.9em">
                 Nuit à partir de <strong>25€</strong>
               </p>
-              <i class="fas fa-star strafe" style="margin-bottom: 5%"></i
-              ><i class="fas fa-star"></i><i class="fas fa-star"></i
-              ><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <div>
+                <div>
+                  <i class="fas fa-star strafe" style="margin-bottom: 5%"></i
+                  ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  </div>
+                </div>
             </div>
           </a>
         </div>
@@ -248,8 +308,9 @@
         <div class="bar">
           <a href="#">
             <div class="img1">
-              <img 
-                src="img/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt=""
+              <img
+                src="img/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+                alt=""
               />
             </div>
             <div class="h4title">
@@ -261,8 +322,10 @@
           <a href="#">
             <div class="mini">
               <div class="img2">
-                <img style="object-position: 0px -150px;"
-                  src="img/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt=""
+                <img
+                  style="object-position: 0px -150px"
+                  src="img/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+                  alt=""
                 />
               </div>
               <div class="h4title">
@@ -272,8 +335,10 @@
 
             <div class="mini2">
               <div class="img3">
-                <img  style="object-position: 0px -150px;"
-                  src="img/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt=""
+                <img
+                  style="object-position: 0px -150px"
+                  src="img/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+                  alt=""
                 />
               </div>
               <div class="h4title">
@@ -286,7 +351,8 @@
           <a href="#">
             <div class="img1">
               <img
-                src="img/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt=""
+                src="img/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+                alt=""
               />
             </div>
             <div class="h4title">
@@ -298,8 +364,10 @@
           <a href="#">
             <div class="mini">
               <div class="img2">
-                <img style="object-position: 0px -150px;"
-                  src="img/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt=""
+                <img
+                  style="object-position: 0px -150px"
+                  src="img/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                  alt=""
                 />
               </div>
               <div class="h4title">
@@ -309,8 +377,10 @@
 
             <div class="mini2">
               <div class="img3">
-                <img style="object-position: 0px -150px;"
-                  src="img/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt=""
+                <img
+                  style="object-position: 0px -150px"
+                  src="img/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
+                  alt=""
                 />
               </div>
               <div class="h4title">

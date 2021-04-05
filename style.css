@@ -5,15 +5,11 @@ body {
   font-size: 16px;
   max-width: 1920px;
   margin: 0px auto;
- 
-  
 }
 body > * {
   margin-left: 4%;
   margin-right: 4%;
 }
-
-
 
 .HeadContainer {
   display: flex;
@@ -23,7 +19,6 @@ body > * {
 
 .logo {
   margin-right: auto;
-  
 }
 
 a {
@@ -41,12 +36,11 @@ a {
   border-color: transparent;
   display: flex;
   align-items: center;
-  
 }
 .navlink a {
   vertical-align: baseline;
   padding: 0 20px 0 20px;
-  color:#242424;;
+  color: #242424;
 }
 .navlink:hover {
   border-top: solid;
@@ -108,10 +102,11 @@ input[type="submit"]:hover {
 
 .filter {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
   margin-top: 3%;
-  width: 100%;
+  width: 55%;
   font-weight: 600;
   font-size: 1.2em;
 }
@@ -174,41 +169,31 @@ input[type="submit"]:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  
 }
 
-
-.topContent > *{
-  background-color:#f2f2f2;
+.topContent > * {
+  background-color: #f2f2f2;
   border-radius: 20px;
- 
 }
 
 /* carte hebergement */
 
-.heberg{
-  
+.heberg {
   width: 65%;
-  
 }
 
-.heberg>h2{
-  
+.heberg > h2 {
   margin: 2% 4.5% 0% 4.5%;
-  
 }
 
-
-
-.grid6{
+.grid6 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0% 4.5%;
 }
 
-
-.cardH{
+.cardH {
   background-color: white;
   box-shadow: 0px 0px 10px gray;
   width: 30%;
@@ -218,69 +203,59 @@ input[type="submit"]:hover {
   color: black;
 }
 
-.cardH>*{
-  margin: 2% 2% ;
+.cardH > * {
+  margin: 2% 2%;
 }
-.fa-star{
+.fa-star {
   font-size: 0.8em;
- margin: 0;
- color:#0065fc;
-}
-.strafe{
-  margin-left: 5%;
+  margin: 0;
+  color: #0065fc;
 }
 
-
-
-.fit{
+.fit {
   width: 96%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   overflow: hidden;
   height: 120px;
- 
-
+  object-fit: cover;
 }
 
 .fit > img {
   width: 100%;
 }
-.more{
+.more {
   margin: 2% 4.5%;
 }
-.more > a{
+.more > a {
   font-weight: 600;
   font-size: 1em;
   color: black;
 }
 
-
 /* carte les plus populaires */
-.trend{
+.trend {
   width: 31%;
-  
-  
 }
 
-.trendTitle{
+.trendTitle {
   margin: 2% 10.5% 0% 10.5%;
   display: flex;
   justify-content: space-between;
 }
 
-.fa-chart-line{
+.fa-chart-line {
   margin: auto 2%;
 }
 
-
-.grid3{
+.grid3 {
   display: flex;
   flex-direction: column;
-  justify-content:space-between;
-  margin: 0% 10.5%  3% 10.5%;
+  justify-content: space-between;
+  margin: 0% 10.5% 3% 10.5%;
 }
 
-.cardL{
+.cardL {
   display: flex;
   background-color: white;
   box-shadow: 0px 0px 10px gray;
@@ -290,59 +265,48 @@ input[type="submit"]:hover {
   padding: 1%;
 }
 
-.fit2{
-  width: 39%;
+.fit2 {
+  width: 37%;
   overflow: hidden;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   height: 125px;
-
+  object-fit: fill;
 }
-.three>*{
-  margin:1px 0px;
-  padding: 0px 0px;
+.three > * {
+  margin: 2% 0px;
 }
 .fit2 > img {
-  width: 150%;
-  object-position: 0% 0%;
+  max-width: 170%;
 }
-
-
 
 .three {
+  position: relative;
   margin-left: 2%;
   margin-top: 2%;
-
-
 }
 
-.three > p{
-  margin-bottom: 20%;
+.three > div {
+  position: absolute;
+  bottom: 10%;
 }
 
-/* activités */ 
+/* activités */
 
-
-.titleAct{
-
-  
-}
-
-.titleAct>h1{
+.titleAct > h1 {
   font-size: 1.5em;
 }
 
-.listAct{
+.listAct {
   border-radius: 0%;
-  
+
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   background-color: transparent;
-
 }
 
-.bar{
+.bar {
   overflow: hidden;
   padding: 0 0;
   width: 22%;
@@ -350,90 +314,146 @@ input[type="submit"]:hover {
   box-shadow: 0px 0px 10px gray;
 }
 
-.bar2{
-  
+.bar2 {
   padding: 0 0;
   width: 22%;
   border-radius: 20px;
-  
-  
 }
 
-.img1>img{
+.img1 > img {
   height: 400px;
 }
 
-.h4title >h4{
+.h4title > h4 {
   margin: 2% 5%;
   color: black;
 }
 
-.img2{
+.img2 {
   height: 200px;
   overflow: hidden;
-  
 }
 
-.img2>img{
+.img2 > img {
   width: 100%;
   height: 400px;
-  object-fit:cover;
+  object-fit: cover;
 }
 
-.img3{
+.img3 {
   height: 125px;
   overflow: hidden;
 }
 
-.img3>img{
+.img3 > img {
   height: 400px;
-  object-fit:cover;
+  object-fit: cover;
 }
 
-.mini{
+.mini {
   overflow: hidden;
   padding: 0 0;
   border-radius: 20px;
   box-shadow: 0px 0px 10px gray;
 }
 
-.mini2{
-  margin-top:50px;
+.mini2 {
+  margin-top: 50px;
   overflow: hidden;
   padding: 0 0;
   border-radius: 20px;
   box-shadow: 0px 0px 10px gray;
 }
 
-/* footer */ 
+/* footer */
 
-footer{
+footer {
   margin-left: 0%;
   margin-right: 0%;
   padding-left: 4%;
-  margin-top: 2%;;
+  margin-top: 2%;
   display: flex;
-  background-color:#f2f2f2 ;
+  background-color: #f2f2f2;
   justify-content: space-between;
 }
 
-.footc{
+.footc {
   width: 30%;
-  margin-left: 1%;
 }
 
 .footc > * {
   color: black;
-  
 }
-
 
 /* piggy family romantic animal  ?? */
 .theme:hover {
   box-shadow: 0px 0px 10px #0065fc;
-  
 }
 
-#animal{
-  
+/* responsive  */
+
+@media screen and (max-width: 1680px) {
+  .content {
+    flex-wrap: wrap;
+  }
+.filter{
+  width: 70%;
+}
+ 
+}
+
+  /* ipad */
+
+  @media screen and (max-width: 1024px) {
+    .HeadContainer {
+      display: flex;
+      justify-content: space-between;
+      font-weight: 600;
+    }
+    .filter {
+      width: 100%;
+    }
+    .logo {
+      margin-right: 0%;
+    }
+    .theme {
+      margin-top: 2%;
+    }
+    .heberg {
+      margin-top: 2%;
+      order: 2;
+      width: 100%;
+    }
+    .cardH {
+      width: 30%;
+    }
+
+    .grid3 {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .trend {
+      order: 1;
+      
+      width: 100%;
+    }
+    .cardL {
+      width: 45%;
+      height: 150px;
+    }
+    .fit2 {
+      height: inherit;
+    }
+
+    .fit2 > img {
+      width: 200%;
+    }
+  }
+
+
+@media screen and (max-width: 420px){
+ 
+
+
+
 }

@@ -215,10 +215,12 @@ input[type="submit"]:hover {
   color: #0065fc;
 }
 
-.grey {
+/* .grey {
  
   color: #f2f2f2 !important;
 }
+
+*/
 
 .fit {
   width: 96%;

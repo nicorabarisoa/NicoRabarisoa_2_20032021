@@ -68,6 +68,9 @@ form {
   width: fit-content;
   overflow: hidden;
 }
+button{
+  display: none;
+}
 
 form > div {
   display: flex;
@@ -561,6 +564,7 @@ input[type=submit] {
 }
 
 button{
+  display: block;
   border-color: transparent;
   background-color:#0065fc ;
   color: white;

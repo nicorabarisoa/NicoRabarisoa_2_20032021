@@ -588,16 +588,16 @@ footer {
   .fit2 {
     height: 80px;
   }
-  .fit>img {
+  .fit > img {
     object-position: 0px -100px;
   }
-  .fit2>img {
+  .fit2 > img {
     object-position: -20px -45px;
   }
-  .img1>img {
+  .img1 > img {
     object-position: 0px -150px;
   }
-  .img2>img {
+  .img2 > img {
     object-position: 0px -200px;
   }
 

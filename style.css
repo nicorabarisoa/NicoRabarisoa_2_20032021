@@ -216,6 +216,7 @@ input[type="submit"]:hover {
 }
 
 .grey {
+  color: initial;
   color: #f2f2f2;
 }
 

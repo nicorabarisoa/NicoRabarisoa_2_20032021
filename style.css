@@ -11,9 +11,10 @@ body > * {
   margin-right: 4%;
 }
 
-.HeadContainer {
+
+nav {
+  
   display: flex;
-  justify-content: flex-end;
   font-weight: 600;
 }
 
@@ -28,6 +29,15 @@ a {
 #signin {
   color: #0065fc;
 }
+
+
+#three{
+  border-top: solid;
+  color: #0065fc;
+}
+#active{
+  color: #0065fc;
+}
 .mr {
   margin-right: 3%;
 }
@@ -37,6 +47,8 @@ a {
   display: flex;
   align-items: center;
 }
+
+
 .navlink a {
   vertical-align: baseline;
   padding: 0 20px 0 20px;
@@ -104,12 +116,13 @@ input[type="submit"]:hover {
 }
 
 .filter {
+  
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
   flex-wrap: wrap;
   align-items: center;
-  margin-top: 3%;
-  width: 55%;
+  margin-top: 1%;
+  width:60%;
   font-weight: 600;
   font-size: 1.2em;
 }
@@ -144,6 +157,7 @@ input[type="submit"]:hover {
 /* taille icone */
 
 .name {
+  color: black;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -153,6 +167,7 @@ input[type="submit"]:hover {
 .info {
   display: flex;
   align-items: center;
+  margin-bottom: 15px;
 }
 .info > p {
   padding-left: 1%;
@@ -172,6 +187,7 @@ input[type="submit"]:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 2%;
 }
 
 .topContent > * {
@@ -186,7 +202,7 @@ input[type="submit"]:hover {
 }
 
 .heberg > h2 {
-  margin: 2% 4.5% 0% 4.5%;
+  margin: 4% 6.5% 0.5% 4.5%;
 }
 
 .grid6 {
@@ -236,7 +252,7 @@ input[type="submit"]:hover {
   object-fit: cover;
 }
 .more {
-  margin: 2% 4.5%;
+  margin: 4% 6.5% 4% 4.5%;
 }
 .more > a {
   font-weight: 600;
@@ -250,7 +266,7 @@ input[type="submit"]:hover {
 }
 
 .trendTitle {
-  margin: 2% 10.5% 0% 10.5%;
+  margin: 4% 10.5% 0.5% 10.5%;
   display: flex;
   justify-content: space-between;
 }
@@ -272,8 +288,12 @@ input[type="submit"]:hover {
   box-shadow: 0px 0px 10px gray;
   border-radius: 20px;
   color: black;
-  margin-top: 5%;
+  
   padding: 1%;
+}
+
+.space{
+  margin-top: 10%;
 }
 
 .fit2 {
@@ -281,26 +301,25 @@ input[type="submit"]:hover {
   overflow: hidden;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  height: 125px;
+  height: 140px;
 }
 .three > * {
   margin: 2% 0px;
 }
 .fit2 > img {
   width: 100%;
-  height: 125px;
+  height: 140px;
   object-fit: cover;
 }
 
 .three {
   position: relative;
-  margin-left: 2%;
-  margin-top: 2%;
+  padding:2% 10% 2% 5% ;
 }
 
 .three > div {
   position: absolute;
-  bottom: 10%;
+  bottom: 2%;
 }
 
 /* activités */
@@ -383,7 +402,7 @@ footer {
   margin-left: 0%;
   margin-right: 0%;
   padding-left: 4%;
-  margin-top: 2%;
+  margin-top: 3%;
   display: flex;
   background-color: #f2f2f2;
   justify-content: space-between;
@@ -415,12 +434,17 @@ footer {
 
 /* ipad */
 
-@media screen and (max-width: 1024px) {
-  .HeadContainer {
+@media screen and (max-width: 1025px) {
+  nav {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     font-weight: 600;
   }
+
+  .space{margin-top: 0%;
+  }
+  .logo{width: 50%;}
+  
   .filter {
     width: 100%;
   }
@@ -439,6 +463,13 @@ footer {
     width: 30%;
   }
 
+ .cardH >.strafe{
+    padding-left:2% ;
+  }
+ .star{
+    padding-left:2% ;
+    padding-bottom: 2%;
+  }
   .grid3 {
     flex-direction: row;
     flex-wrap: wrap;
@@ -451,6 +482,7 @@ footer {
   .cardL {
     width: 45%;
     height: 125px;
+    margin-top: 5%;
   }
   .fit2 {
     height: 125px;
@@ -460,8 +492,27 @@ footer {
   }
 }
 
-@media only screen and (max-width: 420px) {
-  .HeadContainer {
+@media only screen and (max-width: 425px) {
+  body>*{
+    margin: 0% 0%;
+  }
+
+  .text>h1{
+    font-size: 23px;
+    margin-bottom: 5px;   
+  }
+
+ 
+  .text>p{
+    margin-top: 0px;
+    font-size: 15px;
+   
+  }
+
+  .trend{
+    border-radius: 0px;
+  }
+  nav{
     flex-wrap: wrap;
 
     margin: 0%;
@@ -477,7 +528,31 @@ footer {
     width: 50%;
     margin: 0%;
   }
+/* info */
+.info{
+  align-items: baseline;
+}
 
+.info>p{
+  font-size: 18px;
+}
+
+/* font size titre */
+
+h2 {
+  font-size: 20px;
+}
+
+/* espacement */
+
+.trend>*{
+  margin-left: 4%;
+  margin-right: 4% ;
+}
+
+.grid3{
+  margin-bottom: 20px;
+}
   #one {
     order: 1;
   }
@@ -487,6 +562,7 @@ footer {
   }
 
   #three {
+    border-top: none;
     order: 3;
     padding-bottom: 2%;
     border-bottom: solid;
@@ -528,7 +604,8 @@ footer {
   }
 
   form {
-    width: 100%;
+    margin: 0% 2%;
+    width: 96%;
     overflow: hidden;
     border: solid;
     border-color: #f2f2f2;
@@ -536,7 +613,14 @@ footer {
   }
 
   .filter {
+    margin-right: 3%;
+    margin-left: 3%;
+    max-width: 400px;
+    justify-content: start;
     margin-top: 20px;
+  }
+  .filter > div {
+    width: 100%;
   }
   .filter > div {
     width: 100%;
@@ -582,12 +666,35 @@ footer {
   }
 
   .cardL {
-    height: 80px;
+    height: 120px;
   }
 
-  .fit2 {
-    height: 80px;
+  .three>h4 {
+   font-size: 15px;
   }
+   
+  .fa-star{
+    font-size: 9px;
+  }
+  .three>p {
+    font-size: 12px;
+   }
+
+  .fit2 {
+    height: 120px;
+  }
+
+  .more{
+    font-size: 15px;
+  }
+
+ 
+  .cardH>h4 {
+    font-size: 15px;
+   }
+   .cardH>h4 {
+    font-size: 12px;
+   }
   .fit > img {
     object-position: 0px -100px;
   }
@@ -611,15 +718,15 @@ footer {
     width: 100%;
     margin-top: 5%;
     margin-bottom: 2%;
-    height: 130px;
+    height: 180px;
   }
   .fit {
-    height: 70px;
+    height: 100px;
   }
 
   .content2 {
-    margin-top: 5%;
-    font-size: 0.5em;
+   font-size: 0.9em;
+   margin: 4% 6.5% 0.5% 4.5%;
   }
   .titleAct {
     margin: 5% 0%;
@@ -633,32 +740,31 @@ footer {
     margin-bottom: 5%;
   }
 
-  .bar {
-    height: 130px;
-  }
+  
 
   .img1 {
     overflow: hidden;
-    height: 100px;
+    height: 145px;
   }
 
   .bar2 {
-    height: 260px;
+    height: 370px;
   }
 
   .img2 {
     overflow: hidden;
-    height: 100px;
+    height: 145px;
   }
   .img3 {
     overflow: hidden;
-    height: 100px;
+    height:  145px;
   }
   .mini2 {
     margin-top: 5%;
   }
 
   footer {
+    margin-top: 20px;
     flex-wrap: wrap;
   }
   .footc {
@@ -668,4 +774,6 @@ footer {
   img {
     object-position: 0px -10px;
   }
+
+ 
 }

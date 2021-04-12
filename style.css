@@ -776,7 +776,13 @@ h2 {
   .footc {
     width: 100%;
   }
+.footc h4{
+  font-size: 17px;
+}
 
+.footc p{
+  font-size: 15px;
+}
   img {
     object-position: 0px -10px;
   }

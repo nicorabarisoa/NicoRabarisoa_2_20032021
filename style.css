@@ -730,21 +730,30 @@ h2 {
   }
 
   .three>h4 {
-   font-size: 15px;
+   font-size: 0.9em;
   }
    
   .fa-star{
-    font-size: 9px;
+    font-size: 11px;
   }
-  .three>p {
-    font-size: 12px;
+  .three >*{
+    font-size: 1em;
    }
+   .strafe >* {
+     font-size: 0.9em;
+     line-height: 0;
+   }
+  
 
   .fit2 {
     height: 120px;
   }
   .navlink > a {
     font-size: 20px;
+  }
+  .strafe > h4{
+    font-size: 1em;
+    line-height: 0;
   }
   .mr > a {
     font-weight: 500;
@@ -764,9 +773,7 @@ h2 {
   .cardH>h4 {
     font-size: 15px;
    }
-   .cardH>h4 {
-    font-size: 12px;
-   }
+  
   .fit > img {
     object-position: 0px -100px;
   }
